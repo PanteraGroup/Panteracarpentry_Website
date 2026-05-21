@@ -1585,3 +1585,5 @@ a:hover span.people_hover {
 		}
 	}
 /* END OF MEDIA QUERIES */
+/* Prevent long names from overflowing the col-md-4 on person/project sub-pages */
+#maininfo .col-md-4 h2 span.large{display:inline-block;max-width:100%;overflow-wrap:anywhere;word-break:break-word;line-height:1;}
