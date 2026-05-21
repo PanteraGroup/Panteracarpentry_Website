@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333">
+    <title>Our People - Pantera Carpentry</title>
+    <meta name="description" content="With over 250 years of combined experience in the built environment we've got a well seasoned team at the helm" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Our People - Pantera Carpentry" />
+    <meta property="og:description" content="With over 250 years of combined experience in the built environment we've got a well seasoned team at the helm" />
+    <meta property="og:image" content="https://panteracarpentry.com/images/og/og1.jpg" />
+    <link rel="icon" href="favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/framework.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d320598d07.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="js/smooth-scroll.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 400) { $('.backtotop').fadeIn('slow'); } else { $('.backtotop').fadeOut('slow'); }
+    });
+    </script>
+    <link rel="stylesheet" href="css/lightslider.css"/>
+    <script src="js/lightslider.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(".services-slider").lightSlider({loop:true,item:1,speed:2000,auto:false,controls:false,pager:true,keyPress:true,adaptiveHeight:false});
+    });
+    </script>
+    <style>
+    #cookie-banner{position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#fff;padding:15px 20px;z-index:9999;display:none;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;box-shadow:0 -2px 10px rgba(0,0,0,.3)}
+    #cookie-banner p{margin:0;font-size:14px;flex:1}
+    #cookie-banner a{color:#5aabff}
+    #cookie-accept{background:#0e568c;color:#fff;border:none;padding:8px 20px;cursor:pointer;font-size:14px}
+    #cookie-accept:hover{background:#0b4070}
+    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded',function(){
+        if(!localStorage.getItem('cookieConsent')){document.getElementById('cookie-banner').style.display='flex';}
+        document.getElementById('cookie-accept').addEventListener('click',function(){
+            localStorage.setItem('cookieConsent','accepted');
+            document.getElementById('cookie-banner').style.display='none';
+        });
+    });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3440S2535"></script>
+    <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','G-T3440S2535',{'anonymize_ip':true});
+    </script>
+</head>
+<body id="backtotop">
+<a href="#backtotop" data-scroll title="Back to top"><img src="images/backtotop.png" class="backtotop" alt="Back to top"/></a>
+<div class="container-fluid sticky-top navigation">
+<nav class="navbar navbar-expand-lg navbar-toggleable-md py-lg-0">
+<a class="navbar-brand d-inline mr-auto pt-4" href="index.html"><img src="images/logo.png" class="logo" alt="Pantera Carpentry Logo"/></a>
+<button class="navbar-toggler navbar-toggler-right my-auto" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse align-self-end" id="navbarMain">
+<ul class="navbar-nav ml-auto mt-2 mt-lg-0 pl-5"><li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+<li class="nav-item active"><a href="people.html" class="nav-link">People</a></li>
+<li class="nav-item"><a href="apprentices.html" class="nav-link">Apprentices</a></li>
+<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="values.html" class="nav-link">Values</a></li>
+<li class="nav-item"><a href="esg.html" class="nav-link">ESG</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+</ul>
+</div></nav></div>
+<script>
+if($(window).width()>992){jQuery(function($){$('.navbar .dropdown').hover(function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(250).slideDown();},function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(100).slideUp();});$('.navbar .dropdown > a').click(function(){location.href=this.href;});});}
+$(document).ready(function(){$(".dropdown-toggle").dropdown();});
+</script>
+<section class="parallax parallax_people">
+<div class="masthead container-fluid"><div class="row h-100">
+<div class="col-xl-7 col-lg-10 col-md-10 col-12 mx-auto d-flex align-items-center justify-content-center">
+<div class="p-lg-5 p-3 overlay"><h2 class="mt-1"><span class="large">OUR PEOPLE</span></h2></div>
+</div></div></div></section>
+<div class="container pb-5">
+<div class="row mt-5"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">OUR PEOPLE</p><hr class="bg-dark"></div></div></div>
+<div class="row" id="senior">
+<div class="col-12 p-lg-3 pb-0"><h1 class="mt-1"><span class="large">MEET THE<br>SENIOR MANAGEMENT TEAM</span></h1></div>
+<div class="col-lg-7 col-12 px-lg-3 pt-0"><p>With over 250 years of combined experience in the built environment, our leadership team brings a wealth of expertise. Our Directors and Senior Managers work closely with our teams to empower yours. Driven by a mission to be the best in everything we do, we are determined to improve services to the construction industry.</p></div>
+</div>
+<div class="row"><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/paul-healey.html" title="Click to read more about Paul Healey">
+<img src="website-content/profiles/paul-healey.jpg" class="card-img-top" alt="Paul Healey"/>
+<span class="people_hover"><hr/>Meet Paul </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Paul Healey</h2>
+<p class="team_position">Group Chairman</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/rob-farquhar.html" title="Click to read more about Robert Farquhar">
+<img src="website-content/profiles/rob-farquhar.jpg" class="card-img-top" alt="Robert Farquhar"/>
+<span class="people_hover"><hr/>Meet Robert </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Robert Farquhar</h2>
+<p class="team_position">Construction Director South East</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/pete-mills.html" title="Click to read more about Pete Mills">
+<img src="website-content/profiles/pete-mills.jpg" class="card-img-top" alt="Pete Mills"/>
+<span class="people_hover"><hr/>Meet Pete </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Pete Mills</h2>
+<p class="team_position">Group Managing Director and Managing Director London</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/tony-mills.html" title="Click to read more about Tony Mills">
+<img src="website-content/profiles/tony-mills.jpg" class="card-img-top" alt="Tony Mills"/>
+<span class="people_hover"><hr/>Meet Tony </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Tony Mills</h2>
+<p class="team_position">Managing Director Pantera Wardrobes &amp; PG Doors</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/john-goodall.html" title="Click to read more about John Goodall">
+<img src="website-content/profiles/john-goodall.jpg" class="card-img-top" alt="John Goodall"/>
+<span class="people_hover"><hr/>Meet John </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">John Goodall</h2>
+<p class="team_position">Senior Estimator London</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/liam-hitchen.html" title="Click to read more about Liam Hitchen">
+<img src="website-content/profiles/liam-hitchen.jpg" class="card-img-top" alt="Liam Hitchen"/>
+<span class="people_hover"><hr/>Meet Liam </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Liam Hitchen</h2>
+<p class="team_position">Group Operations Director</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/mat-glendenning.html" title="Click to read more about Mat Glendenning">
+<img src="website-content/profiles/mat-glendenning.jpg" class="card-img-top" alt="Mat Glendenning"/>
+<span class="people_hover"><hr/>Meet Mat </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Mat Glendenning</h2>
+<p class="team_position">Managing Director South East</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/kevin-ross.html" title="Click to read more about Kevin Ross">
+<img src="website-content/profiles/kevin-ross.jpg" class="card-img-top" alt="Kevin Ross"/>
+<span class="people_hover"><hr/>Meet Kevin </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Kevin Ross</h2>
+<p class="team_position">Group Commercial Director</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/jack-davies.html" title="Click to read more about Jack Davies">
+<img src="website-content/profiles/jack-davies.jpg" class="card-img-top" alt="Jack Davies"/>
+<span class="people_hover"><hr/>Meet Jack </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Jack Davies</h2>
+<p class="team_position">Contracts Manager London</p>
+</div></div></div></div></div>
+<div class="row mt-4" id="teams">
+<div class="col-12 p-lg-3 d-flex align-items-center"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">OUR PEOPLE</p><hr class="bg-dark"></div></div></div>
+<div class="col-12 px-lg-3 pb-0"><h2 class="mt-1"><span class="large">MEET THE<br>LONDON PROJECT TEAM</span></h2></div>
+<div class="col-lg-7 col-12 px-lg-3 pt-0"><p>Our London site teams bring a wealth of specialist installation knowledge and experience. They understand, through proven systems, how to work to the highest standards on London's most logistically challenging developments.</p></div>
+</div>
+<div class="row"><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/david-blythe.html" title="Click to read more about David Blyth">
+<img src="website-content/profiles/david-blythe.jpg" class="card-img-top" alt="David Blyth"/>
+<span class="people_hover"><hr/>Meet David </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">David Blyth</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/tommy-may-fisher.html" title="Click to read more about Tommy May-Fisher">
+<img src="website-content/profiles/tommy-may-fisher.jpg" class="card-img-top" alt="Tommy May-Fisher"/>
+<span class="people_hover"><hr/>Meet Tommy </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Tommy May-Fisher</h2>
+<p class="team_position">Project Supervisor</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/edvinas-pravackas.html" title="Click to read more about Edvinas Pravackas">
+<img src="website-content/profiles/edvinas-pravackas.jpg" class="card-img-top" alt="Edvinas Pravackas"/>
+<span class="people_hover"><hr/>Meet Edvinas </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Edvinas Pravackas</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/del-smith.html" title="Click to read more about Del Smith">
+<img src="website-content/profiles/del-smith.jpg" class="card-img-top" alt="Del Smith"/>
+<span class="people_hover"><hr/>Meet Del </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Del Smith</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/ovi-balan.html" title="Click to read more about Ovi Balan">
+<img src="website-content/profiles/ovi-balan.jpg" class="card-img-top" alt="Ovi Balan"/>
+<span class="people_hover"><hr/>Meet Ovi </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Ovi Balan</h2>
+<p class="team_position">Senior Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/leigh-whiltshire.html" title="Click to read more about Leigh Wiltshire">
+<img src="website-content/profiles/leigh-whiltshire.jpg" class="card-img-top" alt="Leigh Wiltshire"/>
+<span class="people_hover"><hr/>Meet Leigh </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Leigh Wiltshire</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/remi-slopsyns.html" title="Click to read more about Remi Slopsnys">
+<img src="website-content/profiles/remi-slopsyns.jpg" class="card-img-top" alt="Remi Slopsnys"/>
+<span class="people_hover"><hr/>Meet Remi </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Remi Slopsnys</h2>
+<p class="team_position">Senior Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/jason-parker.html" title="Click to read more about Jason Parker">
+<img src="website-content/profiles/jason-parker.jpg" class="card-img-top" alt="Jason Parker"/>
+<span class="people_hover"><hr/>Meet Jason </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Jason Parker</h2>
+<p class="team_position">Assistant Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/luke-worssam.html" title="Click to read more about Luke Worssam">
+<img src="website-content/profiles/1699874795.jpg" class="card-img-top" alt="Luke Worssam"/>
+<span class="people_hover"><hr/>Meet Luke </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Luke Worssam</h2>
+<p class="team_position">Project Supervisor</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/dave-worssam.html" title="Click to read more about Dave Worssam">
+<img src="website-content/profiles/dave-worssam.jpg" class="card-img-top" alt="Dave Worssam"/>
+<span class="people_hover"><hr/>Meet Dave </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Dave Worssam</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div></div>
+<div class="row mt-4">
+<div class="col-12 p-lg-3 d-flex align-items-center"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">OUR PEOPLE</p><hr class="bg-dark"></div></div></div>
+<div class="col-12 px-lg-3 pb-0"><h2 class="mt-1"><span class="large">MEET THE<br>SOUTH EAST PROJECT TEAM</span></h2></div>
+<div class="col-lg-7 col-12 px-lg-3 pt-0"><p>Our South East teams are led by managers with extensive site, carpentry, and joinery knowledge. They understand the importance of delivering high-quality work safely and on time.</p></div>
+</div>
+<div class="row"><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/alex-gregory.html" title="Click to read more about Alex Gregory">
+<img src="website-content/profiles/alex-gregory.jpg" class="card-img-top" alt="Alex Gregory"/>
+<span class="people_hover"><hr/>Meet Alex </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Alex Gregory</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/jim-anderson.html" title="Click to read more about Jim Anderson">
+<img src="website-content/profiles/jim-anderson.jpg" class="card-img-top" alt="Jim Anderson"/>
+<span class="people_hover"><hr/>Meet Jim </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Jim Anderson</h2>
+<p class="team_position">Contract Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/bobby-gosal.html" title="Click to read more about Bobby Gosal">
+<img src="website-content/profiles/bobby-gosal.jpg" class="card-img-top" alt="Bobby Gosal"/>
+<span class="people_hover"><hr/>Meet Bobby </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Bobby Gosal</h2>
+<p class="team_position">Site Supervisor</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/nicoli-andreev.html" title="Click to read more about Nicoli Andreev">
+<img src="website-content/profiles/nicoli-andreev.jpg" class="card-img-top" alt="Nicoli Andreev"/>
+<span class="people_hover"><hr/>Meet Nicoli </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Nicoli Andreev</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/adam-colegate.html" title="Click to read more about Adam Colegate">
+<img src="website-content/profiles/adam-colegate.jpg" class="card-img-top" alt="Adam Colegate"/>
+<span class="people_hover"><hr/>Meet Adam </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Adam Colegate</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div><div class="col-lg-fifth col-md-3 col-sm-6 col-6 p-3">
+<div class="card h-100 border-0 p-0">
+<a href="person/dave-gilbert.html" title="Click to read more about Dave Gilbert">
+<img src="website-content/profiles/dave-gilbert.jpg" class="card-img-top" alt="Dave Gilbert"/>
+<span class="people_hover"><hr/>Meet Dave </span></a>
+<div class="card-body row no-gutters p-0"><div class="col-12 text-center">
+<h2 class="team_header">Dave Gilbert</h2>
+<p class="team_position">Project Manager</p>
+</div></div></div></div></div>
+</div>
+<footer>
+<div class="container-fluid py-4 text-white text-center text-xl-left">
+<div class="row">
+<div class="col-lg-9 col-12 p-3 px-5"><div class="row">
+<div class="col-md p-3"><p><strong>
+<a href="people.html">PEOPLE</a><br>
+<a href="apprentices.html">APPRENTICES</a><br>
+<a href="services.html">SERVICES</a><br>
+<a href="projects.html">PROJECTS</a><br>
+<a href="https://www.panterawardrobes.com/" target="_blank">PRODUCTS</a><br>
+<a href="values.html">VALUES</a>
+</strong></p></div>
+<div class="col-md p-3"><p><strong>COMPANY</strong><br>
+<a href="https://www.linkedin.com/company/pantera-group/?viewAsMember=true" target="_blank">LinkedIn</a><br>
+<a href="contact.html">Contact Us</a></p></div>
+<div class="col-md p-3"><p><strong>POLICY</strong><br>
+<a href="iso-accreditation.html">ISO Accreditation</a><br>
+<a href="equal-opportunities-and-diversity-policy.html">Equal Opportunities &amp; Inclusivity</a><br>
+<a href="anti-bribery-policy.html">Anti-bribery</a><br>
+<a href="pefc-and-fsc-policy.html">PEFC &amp; FSC<sup>&reg;</sup></a></p></div>
+<div class="col-md p-3"><p><strong>HEALTH &amp; SAFETY</strong><br>
+<a href="health-and-safety.html">Health &amp; Safety</a><br>
+<a href="esg.html">ESG</a><br>
+<a href="fire-door-accreditation.html">Fire Door<br>Accreditation</a></p></div>
+<div class="col-md p-3"><p><strong>DOWNLOADS</strong><br>
+<a href="documents/brochure.pdf" target="_blank">Brochure</a></p></div>
+<div class="col p-3"><p class="text-nowrap"><strong>HEAD OFFICE</strong><br>Pantera Group<br>Empire House, Sunderland Quay<br>Rochester, Kent, ME2 4HN</p>
+<p><a href="mailto:info@panteracarpentry.com">info@panteracarpentry.com</a></p></div>
+<div class="col-lg-10 col-12 p-3"><p class="my-auto"><small>&copy; Pantera Carpentry 2025 | Company Number: 09660201</small></p></div>
+</div></div>
+<div class="col-lg-3 col-12 p-3 pt-4 px-5">
+<a href="index.html"><img src="images/logo.png" class="w-100" alt="Pantera Carpentry Logo"/></a>
+</div></div></div></footer>
+<div id="cookie-banner">
+<p>We use cookies to improve your experience. By continuing to browse this site you accept our use of cookies. <a href="privacy-policy.html">Privacy Policy</a></p>
+<button id="cookie-accept">Accept</button>
+</div>
+<script src="js/css3-animate-it.js"></script>
+<script>smoothScroll.init();</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333">
+    <title>Health & Safety - Pantera Carpentry</title>
+    <meta name="description" content="Health & Safety" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Health & Safety - Pantera Carpentry" />
+    <meta property="og:description" content="Health & Safety" />
+    <meta property="og:image" content="https://panteracarpentry.com/images/og/og1.jpg" />
+    <link rel="icon" href="favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/framework.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d320598d07.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="js/smooth-scroll.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 400) { $('.backtotop').fadeIn('slow'); } else { $('.backtotop').fadeOut('slow'); }
+    });
+    </script>
+    <link rel="stylesheet" href="css/lightslider.css"/>
+    <script src="js/lightslider.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(".services-slider").lightSlider({loop:true,item:1,speed:2000,auto:false,controls:false,pager:true,keyPress:true,adaptiveHeight:false});
+    });
+    </script>
+    <style>
+    #cookie-banner{position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#fff;padding:15px 20px;z-index:9999;display:none;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;box-shadow:0 -2px 10px rgba(0,0,0,.3)}
+    #cookie-banner p{margin:0;font-size:14px;flex:1}
+    #cookie-banner a{color:#5aabff}
+    #cookie-accept{background:#0e568c;color:#fff;border:none;padding:8px 20px;cursor:pointer;font-size:14px}
+    #cookie-accept:hover{background:#0b4070}
+    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded',function(){
+        if(!localStorage.getItem('cookieConsent')){document.getElementById('cookie-banner').style.display='flex';}
+        document.getElementById('cookie-accept').addEventListener('click',function(){
+            localStorage.setItem('cookieConsent','accepted');
+            document.getElementById('cookie-banner').style.display='none';
+        });
+    });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3440S2535"></script>
+    <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','G-T3440S2535',{'anonymize_ip':true});
+    </script>
+</head>
+<body id="backtotop">
+<a href="#backtotop" data-scroll title="Back to top"><img src="images/backtotop.png" class="backtotop" alt="Back to top"/></a>
+<div class="container-fluid sticky-top navigation">
+<nav class="navbar navbar-expand-lg navbar-toggleable-md py-lg-0">
+<a class="navbar-brand d-inline mr-auto pt-4" href="index.html"><img src="images/logo.png" class="logo" alt="Pantera Carpentry Logo"/></a>
+<button class="navbar-toggler navbar-toggler-right my-auto" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse align-self-end" id="navbarMain">
+<ul class="navbar-nav ml-auto mt-2 mt-lg-0 pl-5"><li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="people.html" class="nav-link">People</a></li>
+<li class="nav-item"><a href="apprentices.html" class="nav-link">Apprentices</a></li>
+<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="values.html" class="nav-link">Values</a></li>
+<li class="nav-item"><a href="esg.html" class="nav-link">ESG</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+</ul>
+</div></nav></div>
+<script>
+if($(window).width()>992){jQuery(function($){$('.navbar .dropdown').hover(function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(250).slideDown();},function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(100).slideUp();});$('.navbar .dropdown > a').click(function(){location.href=this.href;});});}
+$(document).ready(function(){$(".dropdown-toggle").dropdown();});
+</script>
+<section class="parallax parallax_health_and_safety">
+<div class="masthead container-fluid"><div class="row h-100">
+<div class="col-xl-7 col-lg-10 col-md-10 col-12 mx-auto d-flex align-items-center justify-content-center">
+<div class="p-lg-5 p-3 overlay"><h1 class="m-0"><span class="large">HEALTH &amp; SAFETY</span></h1></div>
+</div></div></div></section>
+<div class="container-fluid pb-5"><div class="container">
+<div class="row mt-5"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">Policies</p><hr class="bg-dark"></div></div></div>
+<div class="row"><div class="col-12 p-lg-3">
+<p>At Pantera Group the Board of Directors recognise that the management of Health, Safety and Wellbeing is vital for the strength of our business. We know that setting high standards of Health, Safety and Wellbeing is good for everyone – our Managers, our Workforce other Contractors and our Clients. Working together we aim to achieve the highest standard for Health, Safety and Wellbeing.</p>
+<p>We will commit to giving every project or task the correct time, resource, and equipment to make the work safe, and protect health and wellbeing.</p>
+<p>To do this we will value competence, supervision, communication, mentoring and support, respect, and inclusivity, to create the right condition to enable everyone to work in a safe, positive environment, no matter what work they are doing.</p>
+<p>We are clear that all Directors, of every company in the group are accountable for the Health, Safety and Wellbeing of all our workforce and others affected by our work.</p>
+<p>In support of this commitment we will continually measure, monitor, and revise our arrangements and policies, and communicate them to ensure Health, Safety and Wellbeing standards are being met.</p>
+<p>We will ensure adequate resources to reduce Health, Safety and Wellbeing risks, by keeping training up to date, applauding good work practices and challenging and changing bad ones. We will do this by providing appropriate management and supervision with clear communications to our workforce. We will assess risks and determine suitable control measures are in place and as a minimum meet legal requirement.</p>
+<p>We expect all our employees and contractor to cooperate and be responsible for the Health, Safety and Wellbeing of themselves and others.</p>
+<p>Every company within the group will provide a supporting Health, Safety and Wellbeing Policy Statement.</p>
+<p>To ensure the success of our policy we expect all our workforce, contractors, supply chain and clients to align with our vision.</p>
+<p>Our policy is reviewed annually and updated throughout the year as necessary. All members of our workforce, contractors, supply chain and clients are encouraged to give us feedback on our policy to help us improve.</p>
+</div></div></div></div>
+<footer>
+<div class="container-fluid py-4 text-white text-center text-xl-left">
+<div class="row">
+<div class="col-lg-9 col-12 p-3 px-5"><div class="row">
+<div class="col-md p-3"><p><strong>
+<a href="people.html">PEOPLE</a><br>
+<a href="apprentices.html">APPRENTICES</a><br>
+<a href="services.html">SERVICES</a><br>
+<a href="projects.html">PROJECTS</a><br>
+<a href="https://www.panterawardrobes.com/" target="_blank">PRODUCTS</a><br>
+<a href="values.html">VALUES</a>
+</strong></p></div>
+<div class="col-md p-3"><p><strong>COMPANY</strong><br>
+<a href="https://www.linkedin.com/company/pantera-group/?viewAsMember=true" target="_blank">LinkedIn</a><br>
+<a href="contact.html">Contact Us</a></p></div>
+<div class="col-md p-3"><p><strong>POLICY</strong><br>
+<a href="iso-accreditation.html">ISO Accreditation</a><br>
+<a href="equal-opportunities-and-diversity-policy.html">Equal Opportunities &amp; Inclusivity</a><br>
+<a href="anti-bribery-policy.html">Anti-bribery</a><br>
+<a href="pefc-and-fsc-policy.html">PEFC &amp; FSC<sup>&reg;</sup></a></p></div>
+<div class="col-md p-3"><p><strong>HEALTH &amp; SAFETY</strong><br>
+<a href="health-and-safety.html">Health &amp; Safety</a><br>
+<a href="esg.html">ESG</a><br>
+<a href="fire-door-accreditation.html">Fire Door<br>Accreditation</a></p></div>
+<div class="col-md p-3"><p><strong>DOWNLOADS</strong><br>
+<a href="documents/brochure.pdf" target="_blank">Brochure</a></p></div>
+<div class="col p-3"><p class="text-nowrap"><strong>HEAD OFFICE</strong><br>Pantera Group<br>Empire House, Sunderland Quay<br>Rochester, Kent, ME2 4HN</p>
+<p><a href="mailto:info@panteracarpentry.com">info@panteracarpentry.com</a></p></div>
+<div class="col-lg-10 col-12 p-3"><p class="my-auto"><small>&copy; Pantera Carpentry 2025 | Company Number: 09660201</small></p></div>
+</div></div>
+<div class="col-lg-3 col-12 p-3 pt-4 px-5">
+<a href="index.html"><img src="images/logo.png" class="w-100" alt="Pantera Carpentry Logo"/></a>
+</div></div></div></footer>
+<div id="cookie-banner">
+<p>We use cookies to improve your experience. By continuing to browse this site you accept our use of cookies. <a href="privacy-policy.html">Privacy Policy</a></p>
+<button id="cookie-accept">Accept</button>
+</div>
+<script src="js/css3-animate-it.js"></script>
+<script>smoothScroll.init();</script>
+</body>
+</html>

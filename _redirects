@@ -1,0 +1,54 @@
+# Pantera Carpentry — Netlify Redirects
+# Pretty URL support: /people → /people.html etc.
+
+/people         /people.html        200
+/apprentices    /apprentices.html   200
+/services       /services.html      200
+/projects       /projects.html      200
+/values         /values.html        200
+/esg            /esg.html           200
+/contact        /contact.html       200
+
+/iso-accreditation              /iso-accreditation.html             200
+/health-and-safety              /health-and-safety.html             200
+/fire-door-accreditation        /fire-door-accreditation.html       200
+/anti-bribery-policy            /anti-bribery-policy.html           200
+/equal-opportunities-and-diversity-policy   /equal-opportunities-and-diversity-policy.html  200
+/pefc-and-fsc-policy            /pefc-and-fsc-policy.html           200
+/privacy-policy                 /privacy-policy.html                200
+
+# Project pages
+/250-city-road                          /250-city-road.html                         200
+/olympia-laing-o-rourke                 /olympia-laing-o-rourke.html                200
+/silkstream-st-george-north-london      /silkstream-st-george-north-london.html     200
+/shepperton-studios-for-laing-o-rourke  /shepperton-studios-for-laing-o-rourke.html 200
+/twelve-trees-park                      /twelve-trees-park.html                     200
+/3-and-15-west-lane                     /3-and-15-west-lane.html                    200
+/8-harbord-square                       /8-harbord-square.html                      200
+/10-park-drive                          /10-park-drive.html                         200
+/ashdown-gardens-crowborough            /ashdown-gardens-crowborough.html           200
+/clarendon-road                         /clarendon-road.html                        200
+/eastern-quarry                         /eastern-quarry.html                        200
+/kew-bridge-verdo                       /kew-bridge-verdo.html                      200
+/kings-hill                             /kings-hill.html                            200
+/kent-house-foal-hurst-green            /kent-house-foal-hurst-green.html           200
+/leybourne-manor-house                  /leybourne-manor-house.html                 200
+/london-city-island                     /london-city-island.html                    200
+/one-tower-bridge                       /one-tower-bridge.html                      200
+/barty-farm                             /barty-farm.html                            200
+/oxted                                  /oxted.html                                 200
+/prince-of-wales-drive                  /prince-of-wales-drive.html                 200
+/repton-park                            /repton-park.html                           200
+/rochester-riverside                    /rochester-riverside.html                   200
+/royal-eden-docks                       /royal-eden-docks.html                      200
+/royal-exchange-kingston                /royal-exchange-kingston.html               200
+/st-marys-island-sector                 /st-marys-island-sector.html                200
+/trent-park                             /trent-park.html                            200
+/woodberry-down                         /woodberry-down.html                        200
+/highlands-grange                       /highlands-grange.html                      200
+/stoke-road-hoo                         /stoke-road-hoo.html                        200
+/ledian-gardens                         /ledian-gardens.html                        200
+/the-poppies                            /the-poppies.html                           200
+
+# Person pages
+/person/:slug   /person/:slug.html  200

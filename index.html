@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333">
+    <title>Pantera Carpentry - More than carpentry and joinery</title>
+    <meta name="description" content="Bringing the elements together providing as much as your project needs." />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Pantera Carpentry - More than carpentry and joinery" />
+    <meta property="og:description" content="Bringing the elements together providing as much as your project needs." />
+    <meta property="og:image" content="https://panteracarpentry.com/images/og/og1.jpg" />
+    <link rel="icon" href="favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/framework.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d320598d07.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="js/smooth-scroll.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 400) { $('.backtotop').fadeIn('slow'); } else { $('.backtotop').fadeOut('slow'); }
+    });
+    </script>
+    <link rel="stylesheet" href="css/lightslider.css"/>
+    <script src="js/lightslider.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(".services-slider").lightSlider({loop:true,item:1,speed:2000,auto:false,controls:false,pager:true,keyPress:true,adaptiveHeight:false});
+    });
+    </script>
+    <style>
+    #cookie-banner{position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#fff;padding:15px 20px;z-index:9999;display:none;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;box-shadow:0 -2px 10px rgba(0,0,0,.3)}
+    #cookie-banner p{margin:0;font-size:14px;flex:1}
+    #cookie-banner a{color:#5aabff}
+    #cookie-accept{background:#0e568c;color:#fff;border:none;padding:8px 20px;cursor:pointer;font-size:14px}
+    #cookie-accept:hover{background:#0b4070}
+    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded',function(){
+        if(!localStorage.getItem('cookieConsent')){document.getElementById('cookie-banner').style.display='flex';}
+        document.getElementById('cookie-accept').addEventListener('click',function(){
+            localStorage.setItem('cookieConsent','accepted');
+            document.getElementById('cookie-banner').style.display='none';
+        });
+    });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3440S2535"></script>
+    <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','G-T3440S2535',{'anonymize_ip':true});
+    </script>
+</head>
+<body id="backtotop">
+<a href="#backtotop" data-scroll title="Back to top"><img src="images/backtotop.png" class="backtotop" alt="Back to top"/></a>
+<div class="container-fluid sticky-top navigation">
+<nav class="navbar navbar-expand-lg navbar-toggleable-md py-lg-0">
+<a class="navbar-brand d-inline mr-auto pt-4" href="index.html"><img src="images/logo.png" class="logo" alt="Pantera Carpentry Logo"/></a>
+<button class="navbar-toggler navbar-toggler-right my-auto" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse align-self-end" id="navbarMain">
+<ul class="navbar-nav ml-auto mt-2 mt-lg-0 pl-5"><li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="people.html" class="nav-link">People</a></li>
+<li class="nav-item"><a href="apprentices.html" class="nav-link">Apprentices</a></li>
+<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="values.html" class="nav-link">Values</a></li>
+<li class="nav-item"><a href="esg.html" class="nav-link">ESG</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+</ul>
+</div></nav></div>
+<script>
+if($(window).width()>992){jQuery(function($){$('.navbar .dropdown').hover(function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(250).slideDown();},function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(100).slideUp();});$('.navbar .dropdown > a').click(function(){location.href=this.href;});});}
+$(document).ready(function(){$(".dropdown-toggle").dropdown();});
+</script>
+<div class="container-fluid">
+<div class="row"><div class="col-12 p-0 position-relative">
+<div class="embed-responsive embed-responsive-16by9">
+<div class="video_opacity"></div>
+<video id="pantera_carpentry_index_720" class="embed-responsive-item" poster="videos/pantera_carpentry_index_720.jpg" autoplay muted playsinline loop>
+<source src="videos/pantera_carpentry_index_no_text.mp4" type="video/mp4">
+</video>
+</div>
+<div class="video_overlay"><img src="images/logo.png" alt="Pantera Logo" class="w-100"/></div>
+</div></div></div>
+<div class="container-fluid bg-person">
+<div class="container"><div class="row py-lg-5">
+<div class="col-12 px-lg-5 pt-lg-5 px-3"><h1 class="my-1"><span class="large">MORE THAN</span><br/><span class="small">CARPENTRY AND JOINERY</span></h1></div>
+<div class="col-12 col-lg-6 px-lg-5 p-3">
+<p>We combine all the elements, providing as little or as much as your project needs. We design, supply, and install on the largest residential and commercial projects in London and across the South East. Working with timber, metal, stone, glass, mirrors, fabrics, lighting and much more.</p>
+<p class="h4">Check out our projects and services to find out everything we offer.</p>
+<div class="row mt-5"><div class="col-6 p-3"><a href="projects.html" class="btn btn-block btn-outline-secondary">PROJECTS</a></div><div class="col-6 p-3"><a href="services.html" class="btn btn-block btn-outline-secondary">SERVICES</a></div></div>
+</div>
+<div class="col-12 col-lg-6 px-lg-5 p-3"><img src="images/index/more-than-image.png" class="w-100" alt="Home page image"/></div>
+</div></div></div>
+<div class="container-fluid bg-darker">
+<div class="container py-5"><div class="row">
+<div class="col-lg-10 p-3 d-flex align-items-center"><div>
+<h2 class="mt-1"><span class="large">TRIED AND TESTED</span></h2>
+<p>Pantera has been providing project management, products and installation to the construction industry for 25 years in London &amp; South East. Winning Construction News awards for fit-out installation and ROSPA and Considerate Constructors for health and safety.</p>
+</div></div>
+<div class="col-lg-2 col-md-4 col-6 p-3 mx-auto"><img src="images/index/25-badge_new.png" alt="25 years" class="img-fluid mx-auto d-block"/></div>
+</div>
+<div class="row">
+<div class="col-md-6 col-12 p-3 position-relative"><div class="position-relative"><img src="images/panels/housebuilding.jpg" alt="House Building" class="w-100 mb-3"/><a href="projects.html" class="btn btn-outline btn-overlay">VIEW PROJECTS</a></div><p>Working in Kent, Surrey and Sussex for the UK's premier house builders. Providing roofing, cladding, first fixing and internal fit-out.</p></div>
+<div class="col-md-6 col-12 p-3 position-relative"><div class="position-relative"><img src="images/panels/fitouts.jpg" alt="Fitouts" class="w-100 mb-3"/><a href="projects.html" class="btn btn-outline btn-overlay">VIEW PROJECTS</a></div><p>Working on large residential and commercial projects throughout London. Providing design, supply chain, management of logistics, storage, installation and more.</p></div>
+</div></div></div>
+<div class="container-fluid"><div class="container py-5">
+<div class="row"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">OUR SERVICES</p><hr class="bg-dark"></div></div></div>
+<div class="row">
+<div class="col-12 p-3"><h2 class="mt-1"><span class="large">WHAT WE DO</span></h2></div>
+<div class="col-lg-3 col-sm-6 col-12 p-3"><div class="card h-100 border-0"><img src="images/index/design.png" alt="Design" class="img-fluid mx-auto d-block"/><div class="card-body row no-gutters"><div class="col-12"><h4 class="mt-1 text-center">Design</h4></div></div></div></div>
+<div class="col-lg-3 col-sm-6 col-12 p-3"><div class="card h-100 border-0"><img src="images/index/installation.png" alt="Installation" class="img-fluid mx-auto d-block"/><div class="card-body row no-gutters"><div class="col-12"><h4 class="mt-1 text-center">Installation</h4></div></div></div></div>
+<div class="col-lg-3 col-sm-6 col-12 p-3"><div class="card h-100 border-0"><img src="images/index/supply.png" alt="Supply" class="img-fluid mx-auto d-block"/><div class="card-body row no-gutters"><div class="col-12"><h4 class="mt-1 text-center">Supply</h4></div></div></div></div>
+<div class="col-lg-3 col-sm-6 col-12 p-3"><div class="card h-100 border-0"><img src="images/index/manufacture.png" alt="Manufacture" class="img-fluid mx-auto d-block"/><div class="card-body row no-gutters"><div class="col-12"><h4 class="mt-1 text-center">Manufacture</h4></div></div></div></div>
+<div class="col-lg-3 col-sm-6 col-12 p-3 mx-auto"><a href="services.html" class="btn btn-block btn-outline-secondary">LEARN MORE</a></div>
+</div></div></div>
+<div class="container-fluid bg-darker"><div class="container py-5">
+<div class="row"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">MANUFACTURE</p><hr class="bg-white"></div></div></div>
+<div class="row">
+<div class="col-lg-8 col-12 px-3"><h2 class="mt-1 text-blue"><span class="large">PRODUCTS</span></h2></div>
+<div class="col-lg-4 col-12 px-3"><img src="images/index/product-logos.png" alt="Products Logo" class="w-100 mb-3"/></div>
+<div class="col-12 px-3 pb-3">
+<p>We manufacture our own products at our joinery factory in Ebbsfleet that we supply to and install for many of our clients. We have 2 subsidiaries, Pantera Wardrobes who have been established for 10 years supplying 1000s of wardrobes and PGD our new door-set company which started in 2023 and taking orders now.</p>
+<p>Pantera Wardrobes doesn't only make wardrobes — they also supply bathroom cabinets, shelving, media units and storage cupboards.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-12 pt-0 px-3"><img src="images/index/product-3.png" alt="Products" class="w-100" style="margin-top:-10px;"/></div>
+<div class="col-md-6 col-12 p-5"><img src="images/index/product-1.jpg" alt="Products" class="w-100 mb-3"/><img src="images/index/product-2.png" alt="Products" class="w-100"/></div>
+<div class="col-md-6 col-12 p-3 mx-auto"><a href="https://www.panterawardrobes.com/" target="_blank" class="btn btn-block btn-outline mx-auto">LEARN MORE ABOUT PANTERA WARDROBES</a></div>
+</div></div></div>
+<div class="container-fluid bg_blue"><div class="container py-5">
+<div class="row"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">PROJECTS</p><hr class="bg-white"></div></div></div>
+<div class="row"><div class="col-md-8 col-12 p-3"><h2 class="my-0"><span class="large">RECENT PROJECTS</span></h2></div></div>
+<div class="row">
+<div class="col-md-4 col-12 p-3"><div class="overlay-panel" id="overlay-panel-1"><div class="overlay-content d-flex align-items-center px-lg-3 px-3 pb-4"><div class="w-100"><h2 class="mt-1">250<br><small>CITY ROAD</small></h2><hr class="w-50 bg-white"><p>Two towers of 43 and 36 storeys, 930 apartments and a 190-room hotel.</p></div></div></div><a href="250-city-road.html" class="btn-block btn btn-outline mx-auto w-75 mt-3">Learn More</a></div>
+<div class="col-md-4 col-12 p-3"><div class="overlay-panel" id="overlay-panel-2"><div class="overlay-content d-flex align-items-center px-lg-3 px-3 pb-4"><div class="w-100"><h2 class="mt-1">DUMONT</h2><hr class="w-50 bg-white"><p>186 Studio, 1, 2, 3 and 4 bed high specification apartments over 30 stories.</p></div></div></div><a href="the-dumont.html" class="btn-block btn btn-outline mx-auto w-75 mt-3">Learn More</a></div>
+<div class="col-md-4 col-12 p-3"><div class="overlay-panel" id="overlay-panel-3"><div class="overlay-content d-flex align-items-center px-lg-3 px-3 pb-4"><div class="w-100"><h2 class="mt-1">FOAL HURST GREEN</h2><hr class="w-50 bg-white"><p>Development comprises a collection of over two hundred new homes.</p></div></div></div><a href="kent-house-foal-hurst-green.html" class="btn-block btn btn-outline mx-auto w-75 mt-3">Learn More</a></div>
+</div>
+<div class="row"><div class="col-lg-4 col-sm-6 col-12 p-3 mx-auto"><a href="projects.html" class="btn btn-block btn-outline">VIEW ALL PROJECTS</a></div></div>
+</div></div>
+<div class="container-fluid"><div class="container py-5">
+<div class="row"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">APPRENTICESHIPS &amp; MANAGEMENT CADET PROGRAMME</p><hr class="bg-dark"></div></div></div>
+</div>
+<div class="container bg-person_future"><div class="row">
+<div class="col-md-7 col-12 p-3">
+<h2 class="mt-1"><span class="large">OUR FUTURE</span></h2>
+<p class="font-semi-bold future_strapline">Over 400+ apprentices trained since 1998, and proudly<br/>supporting the Armed Forces Covenant since 2020.</p>
+<p>Over the past 25 years we have taken hundreds of young people and trained them as apprentices to become fully qualified carpenters.<br/>We also train apprentices and graduates to become supervisors, project managers, estimators, quantity surveyors and designers.<br/>Our goal is to help young people, putting them in the best position possible to start their career in the construction industry.</p>
+<p>Pantera Group is proud to be part of the 5% Club <img src="images/index/5pc-club_small.png" alt="5% Club" class="img-fluid d-md-inline d-none ml-3"/></p>
+</div>
+<div class="col-md-5 col-12 p-3 d-flex align-items-start justify-content-end"><div class="row no-gutters"><div class="col-lg-7 col-12 ml-auto">
+<img src="images/index/armed.jpg" alt="Armed Forces" class="img-fluid mb-3 d-block mx-auto w-50"/><br/>
+<img src="images/index/5pc-club.png" alt="5% Club" class="img-fluid d-block d-md-none mx-auto"/>
+</div></div></div>
+</div>
+<div class="row">
+<div class="col-md-4 col-12 p-3"><img src="images/index/future-1.jpg" alt="Our future" class="w-100"/></div>
+<div class="col-md-4 col-12 p-3"><img src="images/index/future-2.jpg" alt="Our future" class="w-100"/></div>
+<div class="col-md-4 col-12 p-3"><img src="images/index/future-3.jpg" alt="Our future" class="w-100"/></div>
+<div class="col-lg-4 col-sm-6 col-12 p-3 mx-auto"><a href="apprentices.html" class="btn btn-block btn-outline-secondary">MEET SOME OF OUR APPRENTICES</a></div>
+</div></div>
+<div class="container"><div class="row">
+<div class="row"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">OUR COMMITMENT</p><hr class="bg-dark"></div></div></div>
+<div class="col-12 p-3"><div class="row"><div class="col-md-4 col-12 pb-3"><img src="images/index/safety.png" alt="Default Safety" class="w-100"/></div></div>
+<p>We are committed to continuously improving the health and safety of our workers.<br>Default Safety means our fundamental principle is to prioritise safety above all else, ensuring it is the first step in planning any task.</p>
+<div class="row">
+<div class="col-lg col-md-3 col-4 p-3"><img src="images/index/commitment/1.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-4"><img src="images/index/commitment/bmtrada.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-3"><img src="images/index/commitment/3.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-3"><img src="images/index/commitment/4.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-3"><img src="images/index/commitment/5.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-3"><img src="images/index/commitment/6.jpg" class="w-100" alt="Certification"/></div>
+</div>
+<div class="row">
+<div class="col-lg col-md-3 col-4 p-3"><img src="images/index/commitment/7.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-4 ml-auto"><img src="images/index/commitment/ifcc.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-4 ml-auto"><img src="images/index/commitment/15.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-4"><img src="images/index/commitment/16.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-4"><img src="images/index/commitment/17.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-4"><img src="images/index/commitment/13.jpg" class="w-100" alt="Certification"/></div>
+<div class="col-lg col-md-3 col-4 p-4"><img src="images/index/commitment/14.jpg" class="w-100" alt="Certification"/></div>
+</div>
+</div></div></div>
+</div>
+<footer>
+<div class="container-fluid py-4 text-white text-center text-xl-left">
+<div class="row">
+<div class="col-lg-9 col-12 p-3 px-5"><div class="row">
+<div class="col-md p-3"><p><strong>
+<a href="people.html">PEOPLE</a><br>
+<a href="apprentices.html">APPRENTICES</a><br>
+<a href="services.html">SERVICES</a><br>
+<a href="projects.html">PROJECTS</a><br>
+<a href="https://www.panterawardrobes.com/" target="_blank">PRODUCTS</a><br>
+<a href="values.html">VALUES</a>
+</strong></p></div>
+<div class="col-md p-3"><p><strong>COMPANY</strong><br>
+<a href="https://www.linkedin.com/company/pantera-group/?viewAsMember=true" target="_blank">LinkedIn</a><br>
+<a href="contact.html">Contact Us</a></p></div>
+<div class="col-md p-3"><p><strong>POLICY</strong><br>
+<a href="iso-accreditation.html">ISO Accreditation</a><br>
+<a href="equal-opportunities-and-diversity-policy.html">Equal Opportunities &amp; Inclusivity</a><br>
+<a href="anti-bribery-policy.html">Anti-bribery</a><br>
+<a href="pefc-and-fsc-policy.html">PEFC &amp; FSC<sup>&reg;</sup></a></p></div>
+<div class="col-md p-3"><p><strong>HEALTH &amp; SAFETY</strong><br>
+<a href="health-and-safety.html">Health &amp; Safety</a><br>
+<a href="esg.html">ESG</a><br>
+<a href="fire-door-accreditation.html">Fire Door<br>Accreditation</a></p></div>
+<div class="col-md p-3"><p><strong>DOWNLOADS</strong><br>
+<a href="documents/brochure.pdf" target="_blank">Brochure</a></p></div>
+<div class="col p-3"><p class="text-nowrap"><strong>HEAD OFFICE</strong><br>Pantera Group<br>Empire House, Sunderland Quay<br>Rochester, Kent, ME2 4HN</p>
+<p><a href="mailto:info@panteracarpentry.com">info@panteracarpentry.com</a></p></div>
+<div class="col-lg-10 col-12 p-3"><p class="my-auto"><small>&copy; Pantera Carpentry 2025 | Company Number: 09660201</small></p></div>
+</div></div>
+<div class="col-lg-3 col-12 p-3 pt-4 px-5">
+<a href="index.html"><img src="images/logo.png" class="w-100" alt="Pantera Carpentry Logo"/></a>
+</div></div></div></footer>
+<div id="cookie-banner">
+<p>We use cookies to improve your experience. By continuing to browse this site you accept our use of cookies. <a href="privacy-policy.html">Privacy Policy</a></p>
+<button id="cookie-accept">Accept</button>
+</div>
+<script src="js/css3-animate-it.js"></script>
+<script>smoothScroll.init();</script>
+</body>
+</html>

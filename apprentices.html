@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333">
+    <title>Apprentices - Pantera Carpentry</title>
+    <meta name="description" content="Apprentices trained since 1998, and proud to support the Armed Forces Covenant since 2020" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Apprentices - Pantera Carpentry" />
+    <meta property="og:description" content="Apprentices trained since 1998, and proud to support the Armed Forces Covenant since 2020" />
+    <meta property="og:image" content="https://panteracarpentry.com/images/og/og1.jpg" />
+    <link rel="icon" href="favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/framework.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d320598d07.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="js/smooth-scroll.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 400) { $('.backtotop').fadeIn('slow'); } else { $('.backtotop').fadeOut('slow'); }
+    });
+    </script>
+    <link rel="stylesheet" href="css/lightslider.css"/>
+    <script src="js/lightslider.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(".services-slider").lightSlider({loop:true,item:1,speed:2000,auto:false,controls:false,pager:true,keyPress:true,adaptiveHeight:false});
+    });
+    </script>
+    <style>
+    #cookie-banner{position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#fff;padding:15px 20px;z-index:9999;display:none;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;box-shadow:0 -2px 10px rgba(0,0,0,.3)}
+    #cookie-banner p{margin:0;font-size:14px;flex:1}
+    #cookie-banner a{color:#5aabff}
+    #cookie-accept{background:#0e568c;color:#fff;border:none;padding:8px 20px;cursor:pointer;font-size:14px}
+    #cookie-accept:hover{background:#0b4070}
+    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded',function(){
+        if(!localStorage.getItem('cookieConsent')){document.getElementById('cookie-banner').style.display='flex';}
+        document.getElementById('cookie-accept').addEventListener('click',function(){
+            localStorage.setItem('cookieConsent','accepted');
+            document.getElementById('cookie-banner').style.display='none';
+        });
+    });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3440S2535"></script>
+    <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','G-T3440S2535',{'anonymize_ip':true});
+    </script>
+</head>
+<body id="backtotop">
+<a href="#backtotop" data-scroll title="Back to top"><img src="images/backtotop.png" class="backtotop" alt="Back to top"/></a>
+<div class="container-fluid sticky-top navigation">
+<nav class="navbar navbar-expand-lg navbar-toggleable-md py-lg-0">
+<a class="navbar-brand d-inline mr-auto pt-4" href="index.html"><img src="images/logo.png" class="logo" alt="Pantera Carpentry Logo"/></a>
+<button class="navbar-toggler navbar-toggler-right my-auto" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse align-self-end" id="navbarMain">
+<ul class="navbar-nav ml-auto mt-2 mt-lg-0 pl-5"><li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="people.html" class="nav-link">People</a></li>
+<li class="nav-item active"><a href="apprentices.html" class="nav-link">Apprentices</a></li>
+<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="values.html" class="nav-link">Values</a></li>
+<li class="nav-item"><a href="esg.html" class="nav-link">ESG</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+</ul>
+</div></nav></div>
+<script>
+if($(window).width()>992){jQuery(function($){$('.navbar .dropdown').hover(function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(250).slideDown();},function(){$(this).find('.dropdown-menu').first().stop(true,true).delay(100).slideUp();});$('.navbar .dropdown > a').click(function(){location.href=this.href;});});}
+$(document).ready(function(){$(".dropdown-toggle").dropdown();});
+</script>
+<section class="parallax" data-parallax="scroll" data-image-src="images/apprentices/hero.jpg">
+<div class="masthead container-fluid"><div class="row h-100">
+<div class="col-xl-6 col-lg-8 col-md-10 col-12 mx-auto d-flex align-items-center justify-content-center">
+<div class="p-lg-5 p-3 overlay"><div class="video_overlay">
+<h1 class="mt-1"><span class="large" style="font-size:280%;">400<span style="font-weight:400;">+</span></span></h1>
+<hr class="w-50 bg-white"/>
+<p class="h5">Apprentices trained since 1998, and proud to support the Armed Forces Covenant since 2020.</p>
+</div></div></div></div></div></section>
+<div class="container">
+<div class="row mt-5 bg-person_apprenticeships">
+<div class="col-12 p-lg-3 d-flex align-items-center"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">APPRENTICESHIPS</p><hr class="bg-dark"></div></div></div>
+<div class="col-md-5 col-12 p-lg-3">
+<h2 class="mt-1"><span class="large">MEET SOME<br/>OF OUR NEW<br/>APPRENTICES</span></h2>
+<img src="images/apprentices/armed-forces.jpg" alt="Armed Forces" class="w-100 py-3"/>
+<p class="h5 mb-5" style="line-height:1.6;">We are proud to have had remarkable success in our apprentice scheme over the years, with apprentice carpenters progressing to project management and quantity surveying roles within the business. We focus on the encouragement and development of new talent in years to come and are consistently expanding year to year.</p>
+<a href="javascript:void(0)" onclick="$('#start_gallery').click();" class="no_underline my-4 d-block">
+<img src="images/eye.png" class="d-inline mr-3" style="width:70px;" alt="View Gallery"/>
+<h5 class="d-inline m-0">LISTEN TO OUR STORIES</h5></a>
+</div>
+<div class="col-md-7 col-12 p-lg-3 d-md-flex d-none align-items-end justify-content-end">
+<div class="p-3 text-left apprentice-border-left"><p class="mb-1 h3 font-weight-bold">AMARIE<br/>FENTY</p><p class="m-0">Apprentice joiner</p></div>
+</div></div>
+<div class="row">
+<div class="col-md-6 pr-3 p-3"><a href="javascript:void(0)" id="start_gallery" type="button" data-toggle="modal" data-target="#amarie_modal"><img src="images/apprentices/amarie.jpg" alt="Amarie" class="w-100 h-100 object-fit-cover"/></a><div class="modal fade" id="amarie_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa-solid fa-x"></i></span></button></div>
+<div class="modal-body"><div class="embed-responsive embed-responsive-16by9">
+<video class="embed-responsive-item" controls id="amarie_video"><source src="videos/amarie.webm" type="video/webm"></video>
+</div></div></div></div></div>
+<script>$('#amarie_modal').on('shown.bs.modal',function(){$('#amarie_video').get(0).play();});$('#amarie_modal').on('hide.bs.modal',function(){$('#amarie_video').get(0).pause();});</script></div>
+<div class="col-md-6 pl-3 p-3"><a href="javascript:void(0)" type="button" data-toggle="modal" data-target="#sol_modal"><img src="images/apprentices/sol.jpg" alt="Sol" class="w-100 h-100 object-fit-cover"/></a><div class="modal fade" id="sol_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa-solid fa-x"></i></span></button></div>
+<div class="modal-body"><div class="embed-responsive embed-responsive-16by9">
+<video class="embed-responsive-item" controls id="sol_video"><source src="videos/sol.webm" type="video/webm"></video>
+</div></div></div></div></div>
+<script>$('#sol_modal').on('shown.bs.modal',function(){$('#sol_video').get(0).play();});$('#sol_modal').on('hide.bs.modal',function(){$('#sol_video').get(0).pause();});</script></div>
+<div class="col-md-6 p-3"><a href="javascript:void(0)" type="button" data-toggle="modal" data-target="#james_modal"><img src="images/apprentices/james.jpg" alt="James" class="w-100 h-100 object-fit-cover"/></a><div class="modal fade" id="james_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa-solid fa-x"></i></span></button></div>
+<div class="modal-body"><div class="embed-responsive embed-responsive-16by9">
+<video class="embed-responsive-item" controls id="james_video"><source src="videos/james.webm" type="video/webm"></video>
+</div></div></div></div></div>
+<script>$('#james_modal').on('shown.bs.modal',function(){$('#james_video').get(0).play();});$('#james_modal').on('hide.bs.modal',function(){$('#james_video').get(0).pause();});</script></div>
+<div class="col-md-6 p-3"><a href="javascript:void(0)" type="button" data-toggle="modal" data-target="#luis_modal"><img src="images/apprentices/luis.jpg" alt="Luis" class="w-100 h-100 object-fit-cover"/></a><div class="modal fade" id="luis_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa-solid fa-x"></i></span></button></div>
+<div class="modal-body"><div class="embed-responsive embed-responsive-16by9">
+<video class="embed-responsive-item" controls id="luis_video"><source src="videos/luis.webm" type="video/webm"></video>
+</div></div></div></div></div>
+<script>$('#luis_modal').on('shown.bs.modal',function(){$('#luis_video').get(0).play();});$('#luis_modal').on('hide.bs.modal',function(){$('#luis_video').get(0).pause();});</script></div>
+<div class="col-12 p-3 text-center"><p>Interested in an apprenticeship with us? <a href="contact.html">Get in touch</a></p></div>
+</div>
+<div class="container">
+<div class="row"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">CADETS</p><hr class="bg-dark"></div></div></div>
+<div class="row">
+<div class="col-md-6 col-md-6 col-12 p-lg-3 mr-auto">
+<h2 class="mt-1"><span class="large">MEET SOME<br/>OF OUR NEW<br/>CADETS</span></h2>
+<p class="h5 mb-5" style="line-height:1.6;">Our Cadets ensure the growth and development of Pantera Group, learning skills in management alongside knowledge of the building industry and project management experience we can guarantee a strong succession plan for the company's future.</p>
+</div>
+<div class="col-lg-4 col-md-6 col-12 p-lg-3"><img src="images/apprentices/1.jpg" alt="Image" class="w-100 mb-3"/><img src="images/apprentices/2.jpg" alt="Image" class="w-100"/></div>
+<div class="col-12 p-3"><img src="images/apprentices/3.jpg" alt="James" class="w-100"/></div>
+<div class="col-12 p-3"><a href="javascript:void(0)" onclick="$('#start_gallery2').click();" class="no_underline my-4 d-block"><img src="images/eye.png" class="d-inline mr-3" style="width:70px;" alt="View Gallery"/><h5 class="d-inline m-0">LISTEN TO OUR STORIES</h5></a></div>
+<div class="col-md-6 p-3"><a href="javascript:void(0)" id="start_gallery2" type="button" data-toggle="modal" data-target="#brandon_modal"><img src="images/apprentices/brandon.jpg" alt="Brandon" class="w-100 h-100 object-fit-cover"/></a><div class="modal fade" id="brandon_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa-solid fa-x"></i></span></button></div>
+<div class="modal-body"><div class="embed-responsive embed-responsive-16by9">
+<video class="embed-responsive-item" controls id="brandon_video"><source src="videos/brandon.webm" type="video/webm"></video>
+</div></div></div></div></div>
+<script>$('#brandon_modal').on('shown.bs.modal',function(){$('#brandon_video').get(0).play();});$('#brandon_modal').on('hide.bs.modal',function(){$('#brandon_video').get(0).pause();});</script></div>
+<div class="col-md-6 p-3"><a href="javascript:void(0)" type="button" data-toggle="modal" data-target="#charlotte_modal"><img src="images/apprentices/charlotte.jpg" alt="Charlotte" class="w-100 h-100 object-fit-cover"/></a><div class="modal fade" id="charlotte_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa-solid fa-x"></i></span></button></div>
+<div class="modal-body"><div class="embed-responsive embed-responsive-16by9">
+<video class="embed-responsive-item" controls id="charlotte_video"><source src="videos/charlotte.webm" type="video/webm"></video>
+</div></div></div></div></div>
+<script>$('#charlotte_modal').on('shown.bs.modal',function(){$('#charlotte_video').get(0).play();});$('#charlotte_modal').on('hide.bs.modal',function(){$('#charlotte_video').get(0).pause();});</script></div>
+<div class="col-12 p-3 text-center"><p>Interested in a cadet programme with us? <a href="contact.html">Get in touch</a></p></div>
+</div>
+</div>
+<div class="container pb-5">
+<div class="row"><div class="col-12 p-lg-3 d-flex align-items-center"><div class="page_separator"><p class="m-0">ARMED FORCES</p><hr class="bg-dark"></div></div></div>
+<div class="row">
+<div class="col-md-8 col-12 p-lg-3 mr-auto">
+<h2 class="mt-1"><span class="large">PROUD TO<br/>SUPPORT THE<br/>ARMED FORCES<br/>COVENANT</span></h2>
+<p class="h5 mb-5" style="line-height:1.6;">In 2020, we signed the Armed Forces Covenant, a promise by the nation that those who serve or have served should be treated fairly and not face disadvantages when seeking employment in the UK. We are proud to support reservists and employ ex-forces personnel at Pantera.</p>
+</div>
+<div class="col-md-3 col-12 p-lg-3"><img src="images/apprentices/covenant.jpg" alt="Covenant" class="w-100 mb-3"/><img src="images/apprentices/ers.jpg" alt="ERS" class="w-100"/></div>
+<div class="col-12 p-3"><img src="images/apprentices/4.jpg" alt="Apprentices" class="w-100 pb-3"/></div>
+</div></div>
+<footer>
+<div class="container-fluid py-4 text-white text-center text-xl-left">
+<div class="row">
+<div class="col-lg-9 col-12 p-3 px-5"><div class="row">
+<div class="col-md p-3"><p><strong>
+<a href="people.html">PEOPLE</a><br>
+<a href="apprentices.html">APPRENTICES</a><br>
+<a href="services.html">SERVICES</a><br>
+<a href="projects.html">PROJECTS</a><br>
+<a href="https://www.panterawardrobes.com/" target="_blank">PRODUCTS</a><br>
+<a href="values.html">VALUES</a>
+</strong></p></div>
+<div class="col-md p-3"><p><strong>COMPANY</strong><br>
+<a href="https://www.linkedin.com/company/pantera-group/?viewAsMember=true" target="_blank">LinkedIn</a><br>
+<a href="contact.html">Contact Us</a></p></div>
+<div class="col-md p-3"><p><strong>POLICY</strong><br>
+<a href="iso-accreditation.html">ISO Accreditation</a><br>
+<a href="equal-opportunities-and-diversity-policy.html">Equal Opportunities &amp; Inclusivity</a><br>
+<a href="anti-bribery-policy.html">Anti-bribery</a><br>
+<a href="pefc-and-fsc-policy.html">PEFC &amp; FSC<sup>&reg;</sup></a></p></div>
+<div class="col-md p-3"><p><strong>HEALTH &amp; SAFETY</strong><br>
+<a href="health-and-safety.html">Health &amp; Safety</a><br>
+<a href="esg.html">ESG</a><br>
+<a href="fire-door-accreditation.html">Fire Door<br>Accreditation</a></p></div>
+<div class="col-md p-3"><p><strong>DOWNLOADS</strong><br>
+<a href="documents/brochure.pdf" target="_blank">Brochure</a></p></div>
+<div class="col p-3"><p class="text-nowrap"><strong>HEAD OFFICE</strong><br>Pantera Group<br>Empire House, Sunderland Quay<br>Rochester, Kent, ME2 4HN</p>
+<p><a href="mailto:info@panteracarpentry.com">info@panteracarpentry.com</a></p></div>
+<div class="col-lg-10 col-12 p-3"><p class="my-auto"><small>&copy; Pantera Carpentry 2025 | Company Number: 09660201</small></p></div>
+</div></div>
+<div class="col-lg-3 col-12 p-3 pt-4 px-5">
+<a href="index.html"><img src="images/logo.png" class="w-100" alt="Pantera Carpentry Logo"/></a>
+</div></div></div></footer>
+<div id="cookie-banner">
+<p>We use cookies to improve your experience. By continuing to browse this site you accept our use of cookies. <a href="privacy-policy.html">Privacy Policy</a></p>
+<button id="cookie-accept">Accept</button>
+</div>
+<script src="js/css3-animate-it.js"></script>
+<script>smoothScroll.init();</script>
+</body>
+</html>
